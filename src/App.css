@@ -25,7 +25,13 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #153741;
+}
+
+h1 {
+  font-family: 'Odibee Sans', cursive;
+  font-size: 72px;
+  color: cadetblue;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +41,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.main-container {
+  padding: 20px;
 }
