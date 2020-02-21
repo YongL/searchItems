@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aquamarine;
+    min-width: 100px;
+    min-height: 100px;
+    transition: transform 2s;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.card:not(:last-child) {
+    margin-right: 20px;
+}
+
+.card:hover {
+    transform: scale(1.3);
+}
