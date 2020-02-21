@@ -23,6 +23,7 @@ class App extends React.Component {
     this.__handlers = {
       searchChange: ({ target: { value } }) => {
         this.setState({ searchField: value });
+        console.log("...", value);
       }
     };
   }
@@ -42,6 +43,7 @@ class App extends React.Component {
           placeholder="search products"
           searchChange={this.__handlers.searchChange}
         />
+
         <CardList products={filteredProducts} />
       </div>
     );
@@ -51,3 +53,5 @@ class App extends React.Component {
 export default App;
 // add api endpoint to get products
 // run migration script to add product table
+
+// TODO: recreate that again and push it, verify the page work!
